@@ -1,29 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-/**
- *
- * @author Adbang 18
- */
 public class Pesawatbisnis extends Pesawat {
- 
+
+    private static final double TAMBAHAN_BISNIS = 0.5;
+
     public Pesawatbisnis(String kodePenerbangan, String maskapai,
                          String asal, String tujuan, double hargaDasar) {
         super(kodePenerbangan, maskapai, asal, tujuan, hargaDasar);
     }
- 
+
+    @Override
     public double hitungHargaTiket() {
-        return getHargaDasar() + (getHargaDasar() * 0.6);
+        return getHargaDasar() + (getHargaDasar() * TAMBAHAN_BISNIS);
     }
- 
+
+    @Override
     public String getKelasLayanan() {
         return "Bisnis";
     }
- 
+
+    @Override
     public String getFasilitas() {
-        return "Bagasi dan Lounge";
+        return "Bagasi 30kg + Lounge";
     }
 }
