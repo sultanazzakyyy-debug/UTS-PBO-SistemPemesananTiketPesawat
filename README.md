@@ -2,6 +2,12 @@
 
 Proyek UTS Pemrograman Berorientasi Objek (PBO) — Program Studi Sistem Informasi, Universitas Mulawarman.
 
+Nama: Muhammad Nadhir Sultan Azzaky
+
+NIM: 2509116080
+
+Kelas: Sistem Informasi'B25
+
 ## Deskripsi Proyek
 
 Program ini adalah aplikasi command-line sederhana untuk memesan tiket pesawat. Program menyimpan daftar penerbangan yang tersedia beserta kelas layanannya (Ekonomi, Bisnis, First Class), memungkinkan pengguna mencari penerbangan berdasarkan kota tujuan, memesan tiket atas nama seorang penumpang, lalu mencetak e-tiket lengkap dengan rincian harga.
